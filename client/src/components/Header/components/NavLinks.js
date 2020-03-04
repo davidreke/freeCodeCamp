@@ -14,16 +14,7 @@ function NavLinks({ displayMenu }) {
         className={'nav-list' + (displayMenu ? ' display-flex' : '')}
         role='menu'
       >
-        <li className='nav-news' role='menuitem'>
-          <Link external={true} sameTab={true} to='/news'>
-            /news
-          </Link>
-        </li>
-        <li className='nav-forum' role='menuitem'>
-          <Link external={true} sameTab={true} to='/forum'>
-            /forum
-          </Link>
-        </li>
+        <li className='nav-news' role='menuitem'></li>
         <li className='nav-projects' role='menuitem'>
           <Link to='/learn'>/learn</Link>
         </li>
