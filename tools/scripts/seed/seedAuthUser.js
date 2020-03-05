@@ -84,7 +84,7 @@ MongoClient.connect(MONGOHQ_URL, { useNewUrlParser: true }, function(
         badges: {
           coreTeam: []
         },
-        isDonating: false,
+        isDonating: true,
         emailAuthLinkTTL: null,
         emailVerifyTTL: null
       });
