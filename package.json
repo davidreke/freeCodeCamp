@@ -2,6 +2,9 @@
   "name": "freecodecamp",
   "private": true,
   "version": "0.0.1",
+  "engines":{
+    "node": "12.14.1"
+  },
   "scripts": {
     "audit": "npm audit & lerna exec --no-bail 'echo $LERNA_PACKAGE_NAME & npm audit'",
     "audit:fix": "npm audit fix & lerna exec 'echo $LERNA_PACKAGE_NAME & npm audit fix'",
