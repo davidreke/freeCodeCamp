@@ -134,4 +134,7 @@ class UpdateEmail extends Component {
 UpdateEmail.displayName = 'Update-Email';
 UpdateEmail.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(UpdateEmail);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(UpdateEmail);

@@ -199,4 +199,7 @@ class UsernameSettings extends Component {
 UsernameSettings.displayName = 'UsernameSettings';
 UsernameSettings.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(UsernameSettings);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(UsernameSettings);

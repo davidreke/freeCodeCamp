@@ -807,7 +807,7 @@ export default function(User) {
           return [];
         }
       })(),
-      isDonating: showDonation ? isDonating : true,
+      isDonating: showDonation ? isDonating : null,
       location: showLocation ? location : '',
       name: showName ? name : '',
       points: showPoints ? points : null,

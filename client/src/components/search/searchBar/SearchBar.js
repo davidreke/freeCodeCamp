@@ -211,4 +211,7 @@ export class SearchBar extends Component {
 SearchBar.displayName = 'SearchBar';
 SearchBar.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchBar);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(SearchBar);

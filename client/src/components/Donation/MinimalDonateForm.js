@@ -26,9 +26,12 @@ const propTypes = {
   })
 };
 
-const mapStateToProps = createSelector(userSelector, ({ isDonating }) => ({
-  isDonating
-}));
+const mapStateToProps = createSelector(
+  userSelector,
+  ({ isDonating }) => ({
+    isDonating
+  })
+);
 
 class MinimalDonateForm extends Component {
   constructor(...args) {
@@ -103,4 +106,7 @@ class MinimalDonateForm extends Component {
 MinimalDonateForm.displayName = 'MinimalDonateForm';
 MinimalDonateForm.propTypes = propTypes;
 
-export default connect(mapStateToProps, null)(MinimalDonateForm);
+export default connect(
+  mapStateToProps,
+  null
+)(MinimalDonateForm);

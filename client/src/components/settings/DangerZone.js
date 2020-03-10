@@ -103,4 +103,7 @@ class DangerZone extends Component {
 DangerZone.displayName = 'DangerZone';
 DangerZone.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(DangerZone);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(DangerZone);

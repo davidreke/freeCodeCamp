@@ -244,4 +244,7 @@ class EmailSettings extends Component {
 EmailSettings.displayName = 'EmailSettings';
 EmailSettings.propTypes = propTypes;
 
-export default connect(mapStateToProps, mapDispatchToProps)(EmailSettings);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(EmailSettings);
