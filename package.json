@@ -1,5 +1,5 @@
 {
-  "name": "@freecodecamp/freecodecamp",
+  "name": "freecodecamp",
   "private": true,
   "version": "0.0.1",
   "scripts": {
@@ -103,5 +103,29 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "description": "![freeCodeCamp.org Social Banner](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidReke/freeCodeCamp.git"
+  },
+  "keywords": [
+    "free",
+    "code",
+    "camp"
+  ],
+  "author": "david reke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidReke/freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/davidReke/freeCodeCamp#readme"
 }
